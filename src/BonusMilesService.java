@@ -1,9 +1,9 @@
 
 public class BonusMilesService {
 
-    public int calculate(int ticketPrice,int pricesMiles) {
+    public int calculate(int ticketPrice) {
 
-        int miles = (ticketPrice / pricesMiles);
+        int miles = (ticketPrice / 20);
 
 
         return miles;
